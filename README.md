@@ -17,7 +17,7 @@ To use all files as train dataset we need to make "tripletes" with files in the 
 
 <code> query_string | positive_document_string | negative_document_string </code>
 
-For this task i use GCP with the $300 free trial. All process made and how to use GCP can be found in []().
+For this task i use GCP with the $300 free trial. All process made and how to use GCP can be found in [DATASET.md](https://github.com/lucashueda/long_sentence_transformer/blob/master/DATASET.md).
 
 # Repository structure
 
