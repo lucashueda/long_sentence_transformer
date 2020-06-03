@@ -15,7 +15,7 @@ We used the MS MARCO Document Ranking dataset available in https://github.com/mi
 
 To use all files as train dataset we need to make "tripletes" with files in the format: 
 
-query_string | positive_document_string | negative_document_string
+<code> query_string | positive_document_string | negative_document_string </code>
 
 For this task i use GCP with the $300 free trial. All process made and how to use GCP can be found in []().
 
