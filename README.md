@@ -5,7 +5,7 @@ Deep Learning applied to NLP course in UNICAMP 1st-2020.
 
 ## How to run
 
-All project were ran in Google Cloud Platform (GCP) due to memory limitation, because files are too large to fit in a simple computer. So i use GCP with the $300 free trial to process data and train model. All process made and how to use GCP can be found in [DATASET.md](https://github.com/lucashueda/long_sentence_transformer/blob/master/DATASET.md) and [TRAINING.md]().
+All project were ran in Google Cloud Platform (GCP) due to memory limitation, because files are too large to fit in a simple computer. So i use GCP with the $300 free trial to process data and train model. All process made and how to use GCP can be found in [DATASET.md](https://github.com/lucashueda/long_sentence_transformer/blob/master/DATASET.md) and [TRAINING.md](https://github.com/lucashueda/long_sentence_transformer/blob/master/TRAINING.md).
 
 Basically i use 2 notebooks to generate train dataset and dev/test eval datasets. Since for our project the training is a little different from evaluating i made used 2 different CGP machines, one with more memory to load MS MARCO files and other with less memory (but still more than a home computer) with GPU to train my model. All instructions and notebooks used are described in **DATASET.md** and **TRAINING.md** files.
 
